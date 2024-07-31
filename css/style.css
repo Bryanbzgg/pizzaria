@@ -194,12 +194,46 @@ header {
   border-bottom: 2px solid #6b7552;
 }
 
-#Pizzas{
-    width: 100%;
-    display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: center;
-   gap: 10px;
-   padding-top: 20px;
+#Pizzas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+#Delivery {
+  max-height: 270px;
+  background: #ebe7db;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  text-align: center;
+}
+
+#Delivery h1 {
+  text-transform: uppercase;
+  color: #bf0a26;
+  font-weight: 900;
+}
+
+#Delivery .sec-menu {
+  justify-content: center;
+  padding: 40px;
+}
+
+#Icone {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin: 20px 0;
+}
+
+.Itens {
+  max-width: 250px;
+  text-align: center;
 }
